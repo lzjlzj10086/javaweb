@@ -9,7 +9,7 @@ import java.io.IOException;
  *      2.在web.xml配置Servlet信息
  *          <servlet>
  *              <servlet-name>demo01MIME类型</servlet-name>
- *              <servlet-class>com.Servlet.demo01入门</servlet-class>
+ *              <servlet-class>com.Servlet.demo01入门01</servlet-class>
  *          </servlet>
  *          <servlet-mapping>
  *              <servlet-name>demo01MIME类型</servlet-name>
