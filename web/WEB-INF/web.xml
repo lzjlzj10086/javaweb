@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>demo01</servlet-name>
+        <servlet-class>com.Servlet.demo01入门</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo01</servlet-name>
+        <url-pattern>/demo01</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>demo02</servlet-name>
+        <servlet-class>com.Servlet.demo02生命周期</servlet-class>
+        <!--默认访问时创建，如果是负数，是第一次访问创建。如果是0或正数，是服务器启动是创建-->
+        <load-on-startup>-1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo02</servlet-name>
+        <url-pattern>/demo02</url-pattern>
+    </servlet-mapping>
+</web-app>
