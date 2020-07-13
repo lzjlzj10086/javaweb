@@ -21,4 +21,15 @@
         <servlet-name>demo02</servlet-name>
         <url-pattern>/demo02</url-pattern>
     </servlet-mapping>
+    <!--配置过滤器-->
+    <!--
+    <filter>
+        <filter-name>demo01</filter-name>
+        <filter-class>com.filter.demo01入门</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>demo01</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    -->
 </web-app>

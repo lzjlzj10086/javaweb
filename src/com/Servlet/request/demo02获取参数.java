@@ -14,7 +14,7 @@ import java.util.Set;
  * Servlet常用方法：
  *
  */
-@WebServlet("/request/demo02域对象01")
+@WebServlet("/request/demo02")
 public class demo02获取参数 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

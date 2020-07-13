@@ -8,6 +8,12 @@ public class Person {
     private int age;
     private Date date;
 
+    public Person(String name, int age, Date date) {
+        this.name = name;
+        this.age = age;
+        this.date = date;
+    }
+
     public String getName() {
         return name;
     }
